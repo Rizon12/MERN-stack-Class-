@@ -1,0 +1,29 @@
+body {
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    color:black;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav1 a {
+    color: black;
+    margin-top: 1.5 rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav1 a:hover {
+    color:black
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="order.html">Order</a></li>
+        </ul>
+    </nav>
+    <h1>Order Food</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br>
+
+        <label for="address">Delivery Address:</label>
+        <input type="text" id="address" name="address" placeholder="Enter your delivery address" required><br>
+
+        <label for="food-item">Select Food Item:</label>
+        <select id="food-item" name="food-item">
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="pasta">Pasta</option>
+            <option value="salad">Salad</option>
+            <option value="sushi">Sushi</option>
+            <option value="ice-cream">Ice Cream</option>
+
+        </select><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br>
+
+        <input type="submit" value="Place Order">
+    </form>
+    <footer>
+        <p>&copy; 2024 Online Food Ordering System. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="https://www.facebook.com/aadarsh.ale/">Facebook</a> | 
+            <a href="https://x.com/">Twitter</a> | 
+            <a href="https://www.instagram.com/">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>

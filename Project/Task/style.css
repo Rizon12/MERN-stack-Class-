@@ -1,0 +1,74 @@
+.body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.heading {
+    background-image: url("https://png.pngtree.com/png-clipart/20230201/original/pngtree-wall-clock-watch-png-image_8940286.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px 500px;
+}
+.part1 {
+    display: flex;
+    align-items: center;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+}
+
+.content1 {
+   display: flex;
+
+}
+.list1 {
+    display: flex;
+    list-style:none;
+    column-gap: 20px;
+}
+
+.logo {
+    display: flex;
+    text-align: center;;
+    font-weight: bold;
+}
+
+.list2 {
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+
+.image1 img {
+height: 100px;
+width: 100px;
+}
+/*Clock image*/
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Section 2 Part */
+
+.body-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.list3, .list4 {
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+
+.body-pictures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}

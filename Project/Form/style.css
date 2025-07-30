@@ -1,0 +1,105 @@
+.parent {
+  background: linear-gradient(to right, rgb(182, 186, 194), rgb(32, 63, 202));
+  /* height: 200px; */
+  /* border: 2px solid; */
+
+  padding: 5px;
+}
+
+.child {
+  /* border: 2px solid black; */
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 100px;
+  padding: 15px;
+}
+
+.form {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  height: 30px;
+  outline: none;
+}
+
+.inputFields {
+  height: 30px;
+  outline:none;
+  width: 410px;
+}
+
+.gender {
+  /* border: 2px solid black; */
+
+  width: 200px;
+  border-radius: 100px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+  background-color: rgb(183, 183, 206);
+}
+
+.male {
+  background-color: blue;
+  outline: none;
+  border-radius: 80px;
+
+  border: none;
+
+  width: 50px;
+  padding: 5px;
+
+  color: white;
+}
+
+.female {
+  background-color: rgb(183, 183, 206);
+  outline: none;
+  border: none;
+}
+
+
+.REGISTER{
+    text-align: center;
+      /* border: 2px solid rgb(236, 4, 4); */
+  border: none;
+
+      background-color: blue;
+      width: 420px;
+      margin-top: 10px;
+      padding: 10px;
+
+
+color: white;
+}
+
+
+.fullName{
+
+    /* border: 2px solid black; */
+
+    width: 420px;
+
+    display: flex;
+
+    gap: 30px;
+}
+h1 {
+    background-color: blue;
+    color: white;
+    width: 420px;
+}

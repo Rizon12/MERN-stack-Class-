@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    font-weight: bold;
+    color:red;
+    font-size: 10px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.content {
+   display: flex;
+    padding:20px;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 20px 40px;
+
+}
+.My_name{
+    padding:10px 20px;
+    line-height: 1;
+}
+.Hello1{
+    color: red;
+    font-size: 13px;
+}
+.contact-btn{
+    background-color: red;
+    color:white;
+    padding: 4px 15px; 
+}
+.image{
+    width: auto;
+    height: auto;
+}
+.content2{
+    display: flex;
+    padding: 20px;
+    background-color: ffff;
+}
+.image2{
+    width: 300px;
+    height: 300px;
+}
+.About_me{
+    padding: 10px 20px;
+    line-height: 1.5;
+    font-size: 15px;
+    position: relative;
+    left: 1000px;
+}
+.button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.Content3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+.My_services {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+.Content3 > div {
+  border: 20px;
+  height:auto;
+    width: 300px;
+}
+
+.content4 {
+    height: auto;
+    width: auto;
+}
+.contact-btn{
+    position: relative;
+    left: 950px;
+    bottom: 100px;
+}

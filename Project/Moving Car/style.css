@@ -1,0 +1,39 @@
+/* .structure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.structure {
+    height: 300px;
+    width: auto;
+    border: 2px solid black;
+    background-image: url('https://media.istockphoto.com/id/1205642517/photo/new-asphalt-roads-trees-under-blue-sky-and-white-clouds.jpg?s=612x612&w=0&k=20&c=n8TjDi_QehxQOCl-Hb54-jpAuovbqW49C0PUyGF-lXE=');
+    /* background-repeat: no-repeat;
+    background-size: auto 300px; */
+}
+
+.car {
+    width: 300px;
+    height: 200px;
+    animation: move 5s linear infinite;
+    background-image: url('https://www.sixt.com/fileadmin2/files/global/sideview/user_upload/fleet/png/1050x600/nissan-versa-4d-grey-2023.png');
+    background-size: cover;
+    /* background-size: 300px 180px; */
+    background-repeat: no-repeat;
+     background-position: left 0px top 45px;
+    
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
